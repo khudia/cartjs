@@ -1,0 +1,61 @@
+
+.simpleCartBasket {
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  top:15%;
+  right: 0;
+  height: 40px;
+  width: 40px;
+  background: url(simpleCart.jpg) no-repeat center center;
+  background-size: contain;
+  background-color: #ffffff;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border-right: none;
+  border: 10px solid #ffffff;
+  -moz-box-shadow:
+    -1px 1px 5px rgba(000,000,000,1),
+    inset 0px 0px 1px rgba(255,255,255,0.6);
+  -webkit-box-shadow:
+    -1px 1px 5px rgba(000,000,000,1),
+    inset 0px 0px 1px rgba(255,255,255,0.6);
+  box-shadow:
+    -1px 1px 5px rgba(000,000,000,1),
+    inset 0px 0px 1px rgba(255,255,255,0.6);
+}
+.simpleCartBasket:hover{
+  cursor: pointer;
+}
+.simpleCartBasket span {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  height: 18px;
+  width: 18px;
+  line-height: 18px;
+  background-color: #35b3ee;
+  color: #ffffff;
+  font-size: 1rem;
+  font-size: 62.5%;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 0.2s 0s;
+  -moz-transition: -moz-transform 0.2s 0s;
+  transition: transform 0.2s 0s;
+}
+.simpleCartBasket.items-added span {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+

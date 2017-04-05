@@ -1,0 +1,9 @@
+{ 
+	"panelside": "right", 
+	"bodyslide": false,
+	"noscroll": true,
+	"exitselector" : ".simpleCartPanel-exit",
+	"paneltoggle" : ".simpleCartBasket",
+	"animtype" : "cubic-bezier(0.54, 0.01, 0.57, 1.03)",
+	"orderpage": "./response/simpleCartOrder.php" 
+}
